@@ -1,6 +1,6 @@
 const Logger = require("./logger");
 
-var logger = new Logger();
+var logger = new Logger().get_instance();
 
 class Shopper {
   constructor(name, money = 0) {
